@@ -1,6 +1,6 @@
 import os
 from flask import Flask, request, jsonify
-from transformers import pipeline, Conversation
+from transformers import pipeline
 
 app = Flask(__name__)
 
